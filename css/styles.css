@@ -4,7 +4,7 @@
   --main-text-color: #212121;
   --second-text-color: #757575;
   --third-text-color: #ffffff;
-  --fours-text-color: rgba(255, 255, 255, 0, 6);
+  --fours-text-color: rgba(255, 255, 255, 0.6);
   --accent-color: #2196f3;
   --main-btn-color: #212121;
   --second-btn-color: #ffffff;
@@ -217,7 +217,9 @@ body {
 .footer-section {
   background-color: #2f303a;
 }
+
 .adress-main-link {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -225,8 +227,13 @@ body {
 }
 
 .adress-link {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--fours-text-color);
+}
+
+.adress.item:hover {
+  color: var(--accent-color);
 }
